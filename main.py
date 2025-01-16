@@ -45,7 +45,7 @@ class Image(File):
 
     def set_height(self, height):
         if height > 0:
-            self.height = height
+            self.height = height    
         else:
             self.height = 1
 
